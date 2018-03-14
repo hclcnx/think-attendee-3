@@ -42,7 +42,9 @@ if(typeof(dojo) != "undefined") {
 
             // here we use waitFor to wait on the .lotusStreamTopLoading div.loaderMain.lotusHidden element
             // before we proceed to customize the page...
-	   var xhargs = {
+	 
+            waitFor( function(){
+	var xhargs = {
 		   url:"/connections/opensocial/rest/people/@me/@self",
 		   handleAs: "json"
 	   };
@@ -52,12 +54,8 @@ if(typeof(dojo) != "undefined") {
 				dojo.query("span.shareSome-title")[0].textContent="Someone here " + results.entry.displayName + "! ";
 			}
 		);
-         /*   waitFor( function(){
-			// wait until the "loading..." node has been hidden
-			// indicating that we have loaded content.
-   			dojo.query("span.shareSome-title")[0].textContent="Someone here " + lconn.homepage.userName + "! ";
        	          },
-		  ".lotusStreamTopLoading div.loaderMain.lotusHidden");*/
+		  ".lotusStreamTopLoading div.loaderMain.lotusHidden");
       } catch(e) {
           alert("Exception occurred in helloWorld: " + e);
       }
