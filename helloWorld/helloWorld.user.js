@@ -43,7 +43,7 @@ if(typeof(dojo) != "undefined") {
             // here we use waitFor to wait on the .lotusStreamTopLoading div.loaderMain.lotusHidden element
             // before we proceed to customize the page...
 	   var xhargs = {
-		   url:"/connections/opensocial/rest/people/@me@self",
+		   url:"/connections/opensocial/rest/people/@me/@self",
 		   handleAs: "json"
 	   };
 	   var deffered = dojo.xhrGet(xhargs);
