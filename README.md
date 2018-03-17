@@ -1,4 +1,4 @@
-# think-attendee-1
+# think-attendee-3
 Temporary repository for attendees of the IBM Think Customizer Workshop 2018
 
 Log into IBM Connections Cloud - https://apps.na.collabserv.com
