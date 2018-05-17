@@ -2,7 +2,7 @@
 // @copyright    Copyright IBM Corp. 2016
 
 // @name         commListCardsFlipStyle
-// @version      0.91
+// @version      0.9
 // @description  *** PROTOTYPE CODE *** displays community list as cards with flip action for additional info
 //
 // @namespace  http://ibm.com
