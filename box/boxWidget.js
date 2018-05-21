@@ -54,7 +54,7 @@ waitFor(
         "</div></div>" +
         "<div class='lotusSectionBody'>" +
         "<div id='_" + uuid + "_root'>" +
-        "<iframe src='https://ibm.ent.box.com/embed/s/613gw0e3d7mr3vawxc9szs6bpttj0di4?partner_id=314' width='375' height='400' frameborder='0'" +
+        "<iframe src='https://ibm.ent.box.com/embed_widget/files/0/f/0?theme=gray&partner_id=314' width='375' height='400' frameborder='0'" +
         "allowfullscreen webkitallowfullscreen msallowfullscreen>" +
         "</iframe>" +
         "</div></div>";
@@ -64,7 +64,7 @@ waitFor(
     var content = dojo.query(".lotusContent")[0];
     var boxWidgetLarge = "<div class='lotusStream' id='boxWidgetLarge' widgetid='boxWidgetLarge' style='margin-bottom:20px;'>" +
         "<div class='lotusWidgetBody' id='boxWidgetLargeMain'>" +
-        "<iframe src='https://ibm.ent.box.com/embed_widget/files/0/f/0?theme=gray&partner_id=314' width='100%' height='400' frameborder='0'" +
+        "<iframe src='https://ibm.ent.box.com/embed/s/613gw0e3d7mr3vawxc9szs6bpttj0di4?partner_id=314' width='100%' height='400' frameborder='0'" +
         "allowfullscreen webkitallowfullscreen msallowfullscreen>" +
         "</iframe>" +
         "</div></div>";
