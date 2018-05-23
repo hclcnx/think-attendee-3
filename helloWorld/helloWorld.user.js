@@ -2,7 +2,7 @@
 // @copyright    Copyright IBM Corp. 2017
 //
 // @name         helloWorld
-// @version      0.1
+// @version      0.11
 // @description  *** PROTOTYPE CODE *** demonstrates simple hello world script to customize the Home Page
 //
 // @namespace  http://ibm.com
