@@ -53,6 +53,7 @@ if(typeof(dojo) != "undefined") {
                     //console.log('JSON response = ' + JSON.stringify(results, null, 4));
 		    var idString = results.entry.id;
 	            var parts = idString.split(":");
+			  console.log("zzz " + idString.split(":")[4]);
 		    console.log(parts);
 		    var id = parts[4];
 		    console.log("id=" + id);
