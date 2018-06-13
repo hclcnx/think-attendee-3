@@ -9,7 +9,7 @@
     {
       "payload": {
         "include-files": [
-          "filePreview/filePreivew.js"
+          "filePreview/filePreview.js"
         ],
         "include-repo":{
          "name": "think-attendee-3"
