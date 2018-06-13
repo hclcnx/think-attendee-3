@@ -37,7 +37,6 @@ waitFor( function() {
     waitFor( function() {
         var previewText = dojo.query(".ics-viewer-icon-preview > div > div > span")[0];
         if (!!previewText) {
-          previewText.textContent="";
           var downloadLink = dojo.query(".ics-viewer-toolbar .ics-viewer-action-download > div > a")[0];
           dojo.place("<div id='file-link'>" +
                      "<span>Preview unavailable. <a href='" + downloadLink.href + "'>Download the file</a></span>" +
