@@ -6,9 +6,9 @@
         "include-files": [
           "newsRiver/newsRiverSectioned.user.js"
         ],
-	"include-repo":{
-	  "name": "think-attendee-3"
-	}
+        "include-repo": {
+          "name": "think-attendee-3"
+        }
       },
       "name": "News River Sectioned Extension",
       "type": "com.ibm.customizer.ui",
