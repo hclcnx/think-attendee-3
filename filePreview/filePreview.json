@@ -12,10 +12,7 @@
           "filePreview/filePreview.js"
         ],
         "include-repo":{
-         "name": "think-attendee-3"
-       },
-       "match": {
-         "url": "app/file"
+         "name": "[YOUR-REPO-NAME]"
        }
       },
       "name": "File Preview Extension",
