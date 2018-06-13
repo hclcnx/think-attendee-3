@@ -11,9 +11,9 @@
         "include-files": [
           "helloWorld/helloWorld.user.js"
         ],
-	      "include-repo":{
-	       "name": "think-attendee-3"
-	     }
+        "include-repo":{
+         "name": "think-attendee-3"
+       }
       },
       "name": "Hello World Extension",
       "type": "com.ibm.customizer.ui",

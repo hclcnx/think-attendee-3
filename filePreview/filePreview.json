@@ -1,0 +1,26 @@
+{
+  "name": "File Preview Customization",
+  "title": "File Preview Customization",
+  "description": "Insert download link to a file when no preview is available",
+  "services": [
+    "Customizer"
+  ],
+  "extensions": [
+    {
+      "payload": {
+        "include-files": [
+          "filePreview/filePreview.js"
+        ],
+        "include-repo":{
+         "name": "think-attendee-3"
+       },
+       "match": {
+         "url": "app/file"
+       }
+      },
+      "name": "File Preview Extension",
+      "type": "com.ibm.customizer.ui",
+      "path": "files"
+    }
+  ]
+}
