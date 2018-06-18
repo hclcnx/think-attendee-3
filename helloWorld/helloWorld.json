@@ -13,7 +13,10 @@
         ],
         "include-repo":{
          "name": "think-attendee-3"
-       }
+       },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
       },
       "name": "Hello World Extension",
       "type": "com.ibm.customizer.ui",
