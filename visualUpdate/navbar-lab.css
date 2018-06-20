@@ -2,16 +2,17 @@
   /*selection*/
   --color-brand-01:#380088;
   /*Navbar background*/
-  --color-brand-02:#95d13;
+  --color-brand-02:;#009900
   /*Hover accent color*/
   --color-brand-03:#fe8500;
   /*Nav height*/
-  --nav-height:40px;
+  --nav-height:60px;
   /*Nav font-size*/
   --nav-font-size:13px;
   /*Nav font-weight*/
   --nav-font-weight:600; }
 
+/* #95d13 */
 .ics-scbanner {
   height: var(--nav-height) !important;
   background-color: var(--color-brand-02) !important; }
