@@ -6,8 +6,11 @@
         "include-files": [
           "profiles/profilesCustomization.css"
         ],
+        "match": {
+            "url": "rofileView.do"
+        },
         "include-repo": {
-          "name": "think-attendee-3"
+          "name": "global-samples"
         }
       },
       "name": "Profiles Customization Extension",
